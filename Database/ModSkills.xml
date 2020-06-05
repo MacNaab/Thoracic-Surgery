@@ -1,0 +1,18 @@
+<Database>
+    <!-- Pneumologue & Chirurgien thoracique -->
+	<GameDBSkill ID="SKILL_DOC_SPEC_PNEUMOLOGUE">
+			<AbbreviationLocID>SKILL_DOC_SPEC_PNEUMOLOGUE_DESCRIPTION</AbbreviationLocID>
+			<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+			<IconIndex>410</IconIndex>
+			<CustomIconAssetRef>ASSET_CHIR_THO_ICON_G</CustomIconAssetRef>
+			<CustomIconLightBackgroundAssetRef>ASSET_CHIR_THO_ICON_G_DARK</CustomIconLightBackgroundAssetRef>
+			<ExtraLevelingPercent>100</ExtraLevelingPercent>
+	</GameDBSkill>
+
+	<GameDBSkill ID="SKILL_DOC_SPEC_CHIRURGIEN_THORACIQUE">
+			<AbbreviationLocID>SKILL_DOC_SPEC_CHIRURGIEN_THORACIQUE_DESCRIPTION</AbbreviationLocID>
+			<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+			<IconIndex>2388</IconIndex>
+			<ExtraLevelingPercent>50</ExtraLevelingPercent>
+	</GameDBSkill>
+</Database>

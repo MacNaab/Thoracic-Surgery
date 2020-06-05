@@ -1,0 +1,35 @@
+<Database>
+
+<!--    <GameDBAsset ID="ASSET_TEX_CHIR_THO_DECALS">   <Type>TEXTURE_OBJECTS</Type>   <File>MOD_ROOT/mod_decals_2048_atlas_chir_tho.png</File> </GameDBAsset>	-->
+
+<!-- ================================================== Skills ================================================== -->
+
+    <GameDBAsset ID="ASSET_CHIR_THO_ICON_G">							<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_skill_icon_blanc.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_CHIR_THO_ICON_G_DARK">						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_icon_06.png</File> </GameDBAsset>
+
+<!-- ================================================== Département ================================================== -->
+
+	<GameDBAsset ID="ASSET_CHIR_THO_DPT_ICON_0"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_icon_00.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_CHIR_THO_DPT_ICON_1"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_CHIR_THO_DPT_ICON_2"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_CHIR_THO_DPT_ICON_3"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_CHIR_THO_DPT_ICON_4"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_CHIR_THO_DPT_ICON_5"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_CHIR_THO_DPT_ICON_6"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_chir_tho_icon_06.png</File> </GameDBAsset>
+
+<!-- ================================================== Diagnostics ================================================== -->
+
+
+<!-- ================================================== Examens ================================================== -->
+
+
+<!-- ================================================== Symptomes ================================================== -->
+
+
+<!-- ================================================== Symptomes Main ================================================== -->
+
+
+<!-- ================================================== Treatments ================================================== -->
+
+
+</Database>
