@@ -1,0 +1,144 @@
+<Database>
+
+    <GameDBTreatment ID="TRT_CHIR_THO_PLEURODÈSE">
+        <AbbreviationLocID>TRT_CHIR_THO_PLEURODÈSE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_PNEUMOLOGUE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_CHIRURGIEN_THORACIQUE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_PNEUMOLOGUE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
+            </RequiredDoctorRoles>
+
+            <FallbackDoctorDepartments>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+                <DepartmentRef>DPT_ICU</DepartmentRef>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+            </FallbackDoctorDepartments>
+
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>BODY_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>BODY_RIGHT</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT</AssistantNursePosition>
+            </BedPositionsStaff>
+
+            <Complications>
+                <Complication>
+                    <SymptomRef>SYM_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_ALVEOLAR_COLLAPSE</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_SEPSIS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>3</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+            </Complications>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag><!--0-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag><!--1-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--2-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--3-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--4-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--5-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--6-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--7-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag><!--8-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag><!--9-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag><!--10-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>electrocautery_machine</Tag><!--11-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag><!--12-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag><!--13-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag><!--14-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>succion_machine</Tag><!--15-->
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgery</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1997</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
+    </GameDBTreatment>
+
+
+
+</Database>

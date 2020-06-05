@@ -1,0 +1,137 @@
+<Database>
+	<!-- Hypoxia  -->
+	<GameDBSymptom ID="SYM_CRP_HYPOXIE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CRP_HYPOXIE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_UNCONSCIOUSNESS</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_GAZ_DU_SANG</ExaminationRef>
+        </Examinations>
+		<Treatments>
+            <TreatmentRef>TRT_OXYGENOTHERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S12_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+	<!-- ↓ ou abolition du MV   -->
+	<GameDBSymptom ID="SYM_CRP_MV_DA">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CRP_MV_DA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S12_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+	<!-- Condensation alvéolaire  -->
+	<GameDBSymptom ID="SYM_CRP_CONDENSATION_ALVEOLAIRE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CRP_CONDENSATION_ALVEOLAIRE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S12_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+
+
+	<!-- Tympanisme  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_TYMPANISME">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_TYMPANISME_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S12_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+	<!-- Matité  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_MATITE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_MATITE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S12_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+	<!-- ↓ VV  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_VV_D">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_VV_D_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S12_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+	
+	<!-- ↑ VV  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_VV_A">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_VV_A_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S12_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+</Database>
