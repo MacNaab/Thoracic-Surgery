@@ -1,0 +1,22 @@
+<Database>
+    <GameDBStringTable ID="LOC_FR_ADDON_CHIR_THO_BUILDING_MODE">
+
+        <LanguageCode>fr</LanguageCode>
+		<LanguageNameLocalized>Français</LanguageNameLocalized>
+
+        <Contributors>
+            <Name></Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+		<GameDBLocalizedString>	<LocID>ROOM_TYPE_CHIR_THO_OFFICE</LocID>							<Text>Salle de consultation</Text>	</GameDBLocalizedString>
+		<GameDBLocalizedString>	<LocID>ROOM_TYPE_CHIR_THO_OFFICE_DESCRIPTION</LocID>				<Text>La salle de consultation est une salle de diagnostic ambulatoire commune.\n\nMin. Besoin en personnel : \n1x Médecin</Text>	</GameDBLocalizedString>
+		<GameDBLocalizedString>	<LocID>ROOM_TYPE_INPATIENT_CHIR_THO_OFFICE</LocID>					<Text>Unité de diagnostique</Text>	</GameDBLocalizedString>
+		<GameDBLocalizedString>	<LocID>ROOM_TYPE_INPATIENT_CHIR_THO_OFFICE_DESCRIPTION</LocID>		<Text>L'unité de diagnostic du service de chirurgie thoracique fournit des procédures d'examen et de traitement aux patients hospitalisés.\n\nMin. Besoins en personnel : \n1x Médecin \n(Personnel basé dans une salle de garde)</Text>	</GameDBLocalizedString>
+<!--		<GameDBLocalizedString>	<LocID>OBJECT_DECAL_GYNECO_DPT</LocID>								<Text>Chirurgie thoracique</Text>	</GameDBLocalizedString>
+-->
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,60 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_ADDON_CHIR_THO_SYMPTOMS">
+
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>MacNaab</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+			<!-- ================================================== From CRP  ================================================== -->
+
+			<!-- ================================================== Normaux ================================================== -->	
+			<GameDBLocalizedString>	<LocID>SYM_MOREDG_INFARCTUS_MESENTERIQUE</LocID>							<Text>Infarctus mésentérique</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_MOREDG_INFARCTUS_MESENTERIQUE_DESCRIPTION</LocID>				<Text>C'est une nécrose (destruction) des cellules de l'enveloppe qui entoure l'intestin et qui l'attache à l'ensemble de la paroi abdominale : le mésentère. L'infarctus du mésentère est secondaire à l'obstruction de l'artère mésentérique. \n\nHospitalisation au Département de chirurgie générale requis</Text>	</GameDBLocalizedString>
+<!-- v0.02 -->
+			
+			<!-- ================================================== CRP - translate and transfer to CRP ================================================== -->	
+<!--  v0.01
+
+-->		
+			
+			<!-- ================================================== Main ================================================== -->	
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_DECOLLEMENT_PLEURAL</LocID>									<Text>Décollement pleural</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_DECOLLEMENT_PLEURAL_DESCRIPTION</LocID>						<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_S_PNEUMONIAE</LocID>										<Text>Streptococcus pneumoniae</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_S_PNEUMONIAE_DESCRIPTION</LocID>							<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_C_PNEUMONIAE</LocID>										<Text>Chlamydophila pneumoniae</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_C_PNEUMONIAE_DESCRIPTION</LocID>							<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_OPACITE_NHA_ABCES</LocID>									<Text>NHA - abcès</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_OPACITE_NHA_ABCES_DESCRIPTION</LocID>						<Text>NHA dans une logette traduisant un abcès.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_EXACERBATION_ASTHME</LocID>									<Text>Exacerbation</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_EXACERBATION_ASTHME_DESCRIPTION</LocID>						<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_EXACERBATION_BPCO</LocID>									<Text>Exacerbation</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_EXACERBATION_BPCO_DESCRIPTION</LocID>						<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_PNEUMOCYSTIS_JIROVECII</LocID>								<Text>Pneumocystis jirovecii</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_PNEUMOCYSTIS_JIROVECII_DESCRIPTION</LocID>					<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_PLEURESIE_LUPUS</LocID>										<Text>Lupus</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_PLEURESIE_LUPUS_DESCRIPTION</LocID>							<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_HYPOXEMIE_CHRONIQUE</LocID>									<Text>Hypoxémie chronique</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_HYPOXEMIE_CHRONIQUE_DESCRIPTION</LocID>						<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL</LocID>								<Text>Infiltrat interstitiel</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_DESCRIPTION</LocID>					<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_FPI</LocID>							<Text>PIC</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_FPI_DESCRIPTION</LocID>				<Text>Aspect Pneumopathie Interstitielle Commune. L'aspect histologique de la FPI est caractérisé par une alternance de zones de fibrose, d'inflammation, de destruction kystique en rayons de miel, et de parenchyme sain. L'architecture du parenchyme est très altérée. D'autre part, on observe des petits foyers de fibroblastes situés sous l'épithélium alvéolaire au sein d'une matrice myxoïde et qui sont le siège d'une fibroprolifération active. La coexistence de ces foyers de fibrose «jeune» et d'autres zones de fibrose «ancienne», dense et pratiquement acellulaire réalise un aspect d'«hétérogénéité temporelle» caractéristique de cette entité.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_PINS</LocID>							<Text>Homogénéité temporelle</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_PINS_DESCRIPTION</LocID>				<Text>La PINS est globalement caractérisée par des lésions d'inflammation et de fibrose, dont la distribution est typiquement uniforme au sein du parenchyme pulmonaire.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_POC</LocID>							<Text>Remplissage alvéolaire</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_POC_DESCRIPTION</LocID>				<Text>Les données histologiques caractéristiques de la PO sont le remplissage « en patch » des alvéoles pulmonaires et des bronchioles respiratoires par des bourgeons de tissu de granulation composé de fibroblastes et de myofibroblastes (corps de Masson).</Text>	</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_SDRA</LocID>									<Text>SDRA</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_SDRA_DESCRIPTION</LocID>						<Text>Rupune.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_SAMS_LPV</LocID>									<Text>PVL</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_CHIR_THO_SAMS_LPV_DESCRIPTION</LocID>						<Text>Staphylococcus aureus sécréteur de la toxine de Panton Valentine (PVL).</Text>	</GameDBLocalizedString>
+<!-- v0.02 -->
+			
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

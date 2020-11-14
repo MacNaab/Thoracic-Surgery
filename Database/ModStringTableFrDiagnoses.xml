@@ -1,0 +1,51 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_ADDON_CHIR_THO_DIAGNOSES">
+
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>MacNaab</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== Clinique ================================================== -->
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PNO_RECIDIVANT</LocID>									<Text>PNO récidivant</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PNO_RECIDIVANT_DESCRIPTION</LocID>						<Text>Pneumothorax récidivant.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PFLA</LocID>											<Text>PFLA</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PFLA_DESCRIPTION</LocID>								<Text>Pneumonie Franche Lobaire Aiguë.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PNEUMONIE_ATYPIQUE</LocID>								<Text>Pneumonie atypique</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PNEUMONIE_ATYPIQUE_DESCRIPTION</LocID>					<Text>Lirtique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PNEUMONIE_ABCEDEE</LocID>								<Text>Pneumonie abcédée</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PNEUMONIE_ABCEDEE_DESCRIPTION</LocID>					<Text>Lirtique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_ASTHME_EXACERBER</LocID>								<Text>Exacerbation d'asthme</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_ASTHME_EXACERBER_DESCRIPTION</LocID>					<Text>Lirtique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_BPCO_EXACERBER</LocID>									<Text>Exacerbation de BPCO</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_BPCO_EXACERBER_DESCRIPTION</LocID>						<Text>Lirtique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PNEUMOCYSTOSE</LocID>									<Text>Pneumocystose</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PNEUMOCYSTOSE_DESCRIPTION</LocID>						<Text>Lirtique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_LUPUS</LocID>											<Text>Pleurésie lupique</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_LUPUS_DESCRIPTION</LocID>								<Text>Lirtique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_IRC</LocID>												<Text>IRC</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_IRC_DESCRIPTION</LocID>									<Text>Insuffisance Respiratoire Chronique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PID</LocID>												<Text>PID</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PID_DESCRIPTION</LocID>									<Text>Pneumopathie Interstitielle Diffuse.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_FPI</LocID>												<Text>FPI</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_FPI_DESCRIPTION</LocID>									<Text>Fibrose Pulmonaire Idiopathique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PINS</LocID>											<Text>PINS</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_PINS_DESCRIPTION</LocID>								<Text>Pneumopathie Interstitielle Non Spécifique.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_POC</LocID>												<Text>POC</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHIR_THO_POC_DESCRIPTION</LocID>									<Text>Pneumopathie Organisée Cryptogénique.</Text>	</GameDBLocalizedString>
+<!-- v0.02 -->			
+
+			<!-- ================================================== Urgences ================================================== -->
+			<GameDBLocalizedString>	<LocID>TRM_CHIR_THO_SDRA</LocID>											<Text>SDRA</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_CHIR_THO_SDRA_DESCRIPTION</LocID>								<Text>Syndrome Détresse Respiratoire Aiguë.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_CHIR_THO_PNEUMONIE_NECROSANTE</LocID>							<Text>Pneumonie nécrosante</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_CHIR_THO_PNEUMONIE_NECROSANTE_DESCRIPTION</LocID>				<Text>Pneumonie nécrosante à Staphylococcus aureus sécréteur de la toxine de Panton Valentine.</Text>	</GameDBLocalizedString>
+<!-- v0.02 -->	
+
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

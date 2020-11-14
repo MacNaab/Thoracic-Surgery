@@ -1,0 +1,35 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_ADDON_CHIR_THO_TREATMENTS">
+
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>MacNaab</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+			
+			<!-- ================================================== Normaux ================================================== -->
+			<GameDBLocalizedString>	<LocID>TRT_CHIR_THO_PONCTION_EVAC</LocID>										<Text>Ponction évacuatrice</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CHIR_THO_PONCTION_EVAC_DESCRIPTION</LocID>							<Text>Vitamine.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CHIR_THO_OLD</LocID>													<Text>OLD</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CHIR_THO_OLD_DESCRIPTION</LocID>										<Text>Vitamine.</Text>	</GameDBLocalizedString>
+<!--  v0.02  -->		
+
+			<!-- ================================================== CRP - translate and transfer to CRP ================================================== -->
+<!--  v0.01
+
+-->			
+			<GameDBLocalizedString>	<LocID>TRT_CRP_DRAIN_JOLY</LocID>										<Text>Drain de Joly</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CRP_DRAIN_JOLY_DESCRIPTION</LocID>							<Text>Vitamine.</Text>	</GameDBLocalizedString>
+
+			<!-- ================================================== Chirurgie ================================================== -->
+			<GameDBLocalizedString>	<LocID>TRT_CHIR_THO_PLEURODÈSE</LocID>											<Text>Pleurodèse</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_CHIR_THO_PLEURODÈSE_DESCRIPTION</LocID>								<Text>Enère.</Text>	</GameDBLocalizedString>
+<!-- v0.02 -->		
+
+
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

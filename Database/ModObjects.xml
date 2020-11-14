@@ -1,0 +1,84 @@
+<database>
+
+	    <GameDBObject ID="OBJECT_CHIR_THO_POLYSOMNOGRAPHE">
+        <AbbreviationLocID>OBJECT_DIALISIS_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>298</TextureIDNW>
+        <TextureIDNE>300</TextureIDNE>
+        <TextureIDSE>302</TextureIDSE>
+        <TextureIDSW>303</TextureIDSW>
+        <IconIndex>767</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <Placement>INDOORS</Placement>
+        
+        <UseOffsetXNW>-0.7</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+
+        <UseAnimations>
+            <Animation>use_equipment_low</Animation>
+        </UseAnimations>
+
+        <RequiresMaintenance>false</RequiresMaintenance>
+        <Durability>20</Durability>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_polysomnograph</Tag>
+            <Tag>polysomnograph</Tag>
+            <Tag>staff_use_close_left</Tag>
+        </Tags>
+
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+        <AnimationFramesNW>2</AnimationFramesNW>
+        <AnimationFramesNE>2</AnimationFramesNE>
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+        
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_ICU_EQUIPMENT</ColorSetRef>
+        <Cost>4999</Cost>
+    </GameDBObject>
+	
+	
+	    <GameDBObject ID="OBJECT_CHIR_THO_POLYSOMNOGRAPHE">
+        <AbbreviationLocID>OBJECT_SPIROMETER_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>494</TextureIDNW>
+        <TextureIDNE>495</TextureIDNE>
+        <TextureIDSE>496</TextureIDSE>
+        <TextureIDSW>497</TextureIDSW>
+        <IconIndex>779</IconIndex>
+        <UseOffsetXNW>-0.35</UseOffsetXNW>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        
+        <!--TODO anim taking animation hands above the table-->
+        <UseAnimations>
+            <Animation>use_equipment_low</Animation>
+        </UseAnimations>
+        
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_polysomnograph</Tag>
+            <Tag>polysomnograph</Tag>
+        </Tags>
+
+        <Cost>199</Cost>
+    </GameDBObject>
+
+
+</database>

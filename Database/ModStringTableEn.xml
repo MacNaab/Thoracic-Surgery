@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="ADDON_MOD_CHIR_THO">
+    
+    <LanguageCode>en</LanguageCode>
+    <LanguageNameLocalized>English</LanguageNameLocalized>
+		
+	<Contributors>
+    <Name>MacNaab</Name>
+    </Contributors>
+		
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      <LocID>ADDON_MOD_CHIR_THO</LocID>                       <Text>Thoracic surgery and pneumology</Text>  </GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	
+	</GameDBStringTable>
+
+</Database>

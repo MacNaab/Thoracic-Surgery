@@ -1,0 +1,291 @@
+<Database>
+	<!-- Hypoxemia  -->
+	<GameDBSymptom ID="SYM_CRP_HYPOXEMIE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CRP_HYPOXEMIE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_UNCONSCIOUSNESS</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_GAZ_DU_SANG</ExaminationRef>
+        </Examinations>
+		<Treatments>
+            <TreatmentRef>TRT_OXYGENOTHERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1499</IconIndex>
+    </GameDBSymptom>
+
+	<!-- ↓ ou abolition du MV   -->
+	<GameDBSymptom ID="SYM_CRP_MV_DA">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CRP_MV_DA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1365</IconIndex>
+    </GameDBSymptom>
+
+	<!-- Condensation alvéolaire  -->
+	<GameDBSymptom ID="SYM_CRP_CONDENSATION_ALVEOLAIRE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CRP_CONDENSATION_ALVEOLAIRE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1427</IconIndex>
+    </GameDBSymptom>
+
+	<!-- PNEUMATOCELE with TRT in real life and real complication  -->
+    <GameDBSymptom ID="SYM_CRP_PNEUMOTHORAX">
+        <DescriptionLocID>SYM_PNEUMATOCELE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+
+		<RiskOfCollapseStartHours>12</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_RESPIRATORY_FAILURE</CollapseSymptomRef>
+        
+		<PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_FAST</ExaminationRef>
+            <ExaminationRef>EXM_USG</ExaminationRef>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CRP_DRAIN_JOLY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+	<!-- AIRWAYS INFECTED  -->
+	<GameDBSymptom ID="SYM_CRP_PNEUMOPATHIE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_AIRWAYS_INFECTED_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_ECBC_TESTING</ExaminationRef>
+        </Examinations>
+		<Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1193</IconIndex>
+    </GameDBSymptom>
+
+	<!-- CRACKLING  -->
+	<GameDBSymptom ID="SYM_CRP_CREPITANTS">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CRP_CREPITANTS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1365</IconIndex>
+    </GameDBSymptom>
+
+	<!-- HEART FAILURE - NOT A COLLAPSE -->
+	<GameDBSymptom ID="SYM_CRP_HEART_FAILURE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_HEART_FAILURE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+
+        <RiskOfCollapseStartHours>48</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>72</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HEART_FAILURE</CollapseSymptomRef>
+		
+        <Examinations>
+            <ExaminationRef>EXM_ECHO</ExaminationRef>
+        </Examinations>
+		<Treatments>
+            <TreatmentRef>TRT_ACE_INHIBITOR</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1507</IconIndex>
+    </GameDBSymptom>
+
+	<!-- A FAIRE ! -->
+	<GameDBSymptom ID="SYM_CRP_HEMORRAGIE_INTRA_ALVEOLAIRE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CRP_HEMORRAGIE_INTRA_ALVEOLAIRE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>	
+        <Examinations>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+		<Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1507</IconIndex>
+    </GameDBSymptom>
+
+
+
+
+	<!-- ==== Normal === -->
+
+
+	<!-- Tympanisme  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_TYMPANISME">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_TYMPANISME_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1365</IconIndex>
+    </GameDBSymptom>
+
+	<!-- Matité  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_MATITE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_MATITE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1365</IconIndex>
+    </GameDBSymptom>
+
+	<!-- ↓ VV  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_VV_D">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_VV_D_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1365</IconIndex>
+    </GameDBSymptom>
+	
+	<!-- ↑ VV  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_VV_A">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_VV_A_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1365</IconIndex>
+    </GameDBSymptom>
+
+
+	<!-- TVO  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_TVO">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_TVO_A_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_SPIROMETRY</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1047</IconIndex>
+    </GameDBSymptom>
+
+	<!-- TVR  -->
+	<GameDBSymptom ID="SYM_CHIR_THO_TVR">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_TVR_A_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_SPIROMETRY</ExaminationRef>
+        </Examinations>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1047</IconIndex>
+    </GameDBSymptom>
+
+	<!-- A FAIRE ! TRT +++ -->
+	<GameDBSymptom ID="SYM_CHIR_THO_ABCES_PULMONAIRE">	<!-- ICON -->		
+        <DescriptionLocID>SYM_CHIR_THO_ABCES_PULMONAIRE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+
+        <RiskOfCollapseStartHours>48</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>72</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_RESPIRATORY_FAILURE</CollapseSymptomRef>
+		
+        <Examinations>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+		<Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1507</IconIndex>
+    </GameDBSymptom>
+
+
+</Database>

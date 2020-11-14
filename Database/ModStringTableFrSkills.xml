@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_ADDON_CHIR_THO_SKILLS">
+        
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+
+        <Contributors>
+            <Name></Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+		<!-- Departments -->
+			
+			<GameDBLocalizedString>	<LocID>DPT_CHIR_THO_DEPARTMENT</LocID>							<Text>Chirurgie thoracique</Text>	</GameDBLocalizedString>
+			
+		<!--Skills-->
+			
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_PNEUMOLOGUE</LocID>						<Text>Pneumologue</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_PNEUMOLOGUE_DESCRIPTION</LocID>			<Text>La spécialisation en pneumologie est utilisée lors d'examens spécialisé ou pour prescrire des traitements au service de chirurgie thoracique et permet au médecin d'aider en chirurgie.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_CHIRURGIEN_THORACIQUE</LocID>				<Text>Chirurgien thoracique</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_CHIRURGIEN_THORACIQUE_DESCRIPTION</LocID>	<Text>La chirurgie thoracique permet au médecin d'être le chirurgien principal au service de chirurgie thoracique et affecte les chances de complications suite à des actes chirurgicales.</Text>	</GameDBLocalizedString>
+		
+		</LocalizedStrings>
+		
+		</GameDBStringTable>
+
+</Database>

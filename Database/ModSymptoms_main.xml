@@ -1,0 +1,453 @@
+<Database>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_DECOLLEMENT_PLEURAL">
+        <DescriptionLocID>SYM_CHIR_THO_DECOLLEMENT_PLEURAL_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <WalkAnimSuffix>_limp</WalkAnimSuffix>
+        <WalkSpeedModifier>0.5</WalkSpeedModifier>
+        <RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_RESPIRATORY_FAILURE</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+			<ExaminationRef>EXM_FAST</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CHIR_THO_PLEURODÈSE</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_S_PNEUMONIAE">
+        <DescriptionLocID>SYM_CHIR_THO_S_PNEUMONIAE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_ECBC_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_CHIR_THO_PONCTION_PLEURAL_TESTING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_C_PNEUMONIAE">
+        <DescriptionLocID>SYM_CHIR_THO_C_PNEUMONIAE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PCR_TESTING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_OPACITE_NHA_ABCES">
+        <DescriptionLocID>SYM_CHIR_THO_OPACITE_NHA_ABCES_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_EXACERBATION_ASTHME">
+        <DescriptionLocID>SYM_CHIR_THO_EXACERBATION_ASTHME_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <RiskOfCollapseStartHours>3</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>9</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_DYSPNEA</CollapseSymptomRef>
+		
+        <Examinations>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_BRONCHODILATORS</TreatmentRef>
+        </Treatments>
+		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_LOW</CollapseProcedureRef>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_EXACERBATION_BPCO">
+        <DescriptionLocID>SYM_CHIR_THO_EXACERBATION_BPCO_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<RiskOfCollapseStartHours>3</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>9</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_DYSPNEA</CollapseSymptomRef>
+        
+		<Examinations>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_BRONCHODILATORS</TreatmentRef>
+        </Treatments>
+		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_LOW</CollapseProcedureRef>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_PNEUMOCYSTIS_JIROVECII">
+        <DescriptionLocID>SYM_CHIR_THO_PNEUMOCYSTIS_JIROVECII_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PCR_TESTING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_PLEURESIE_LUPUS">
+        <DescriptionLocID>SYM_CHIR_THO_PLEURESIE_LUPUS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1197</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_HYPOXEMIE_CHRONIQUE">
+        <DescriptionLocID>SYM_CHIR_THO_HYPOXEMIE_CHRONIQUE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_GAZ_DU_SANG</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CHIR_THO_OLD</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1197</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_INFILTRAT_INTERSTITIEL">
+        <DescriptionLocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_FNA_TEST</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1197</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_FPI">
+        <DescriptionLocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_DESCRIPTION</DescriptionLocID> <!-- aspect pneumopathie interstitielle commune (usual interstitial pneumoniae) -->
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_FNA_TEST</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1197</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_PINS">
+        <DescriptionLocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_DESCRIPTION</DescriptionLocID> <!-- https://www.revmed.ch/RMS/2002/RMS-2415/22590 -->
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_FNA_TEST</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1197</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_POC">
+        <DescriptionLocID>SYM_CHIR_THO_INFILTRAT_INTERSTITIEL_DESCRIPTION</DescriptionLocID> <!-- https://www.orpha.net/consor/cgi-bin/OC_Exp.php?Lng=FR&Expert=1302 -->
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_FNA_TEST</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1197</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_SILICOSE">
+        <DescriptionLocID>SYM_CHIR_THO_SILICOSE_DESCRIPTION</DescriptionLocID> <!-- L’imagerie thoracique montre des opacités micronodulaires diffuses prédominant dans les lobes supérieurs, pouvant confluer jusqu’à donner des masses pseudo-tumorales caractéristiques (Figure 18). Des adénopathies médiastinales contenant des calcifications « en coquille d’œuf » sont souvent associées. -->
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1197</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_BERYLLIOSE">
+        <DescriptionLocID>SYM_CHIR_THO_BERYLLIOSE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1197</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_CE">
+        <DescriptionLocID>SYM_CHIR_THO_CE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <WalkAnimSuffix>_limp</WalkAnimSuffix>
+        <WalkSpeedModifier>0.5</WalkSpeedModifier>
+        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_FAINTING</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CHIR_THO_HEIMLICH</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_CE_C">
+        <DescriptionLocID>SYM_CHIR_THO_CE_C_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CHIR_THO_EXTRACTION</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_SHV">
+        <DescriptionLocID>SYM_CHIR_THO_SHV_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <RiskOfCollapseStartHours>9</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_FAINTING</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+
+
+    <!-- ================================================== TRAUMAS ================================================== -->
+
+    <GameDBSymptom ID="SYM_CHIR_THO_SDRA">
+        <DescriptionLocID>SYM_CHIR_THO_SDRA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <WalkAnimSuffix>_limp</WalkAnimSuffix>
+        <WalkSpeedModifier>0.5</WalkSpeedModifier>
+        <RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_RESPIRATORY_FAILURE</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_OXYGENOTHERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_SAMS_LPV">
+        <DescriptionLocID>SYM_CHIR_THO_SAMS_LPV_DESCRIPTION</DescriptionLocID>	<!-- Staphylococcus aureus sécréteur de la toxine de Panton Valentine (PVL) -->
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <WalkAnimSuffix>_limp</WalkAnimSuffix>
+        <WalkSpeedModifier>0.5</WalkSpeedModifier>
+        <RiskOfCollapseStartHours>1</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_RESPIRATORY_FAILURE</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_ECBC</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_THO_TRYPTASE_SERIQUE">
+        <DescriptionLocID>SYM_CHIR_THO_TRYPTASE_SERIQUE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>IMOBILE</PatientMobility>
+        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_RESPIRATORY_FAILURE</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_BLOOD_TEST_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_CC_BLOOD_ANALYSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CRP_EPIPEN</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_CHIR_QUICK_EDEMA">
+        <DescriptionLocID>SYM_CHIR_QUICK_EDEMA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <WalkAnimSuffix>_limp</WalkAnimSuffix>
+        <WalkSpeedModifier>0.5</WalkSpeedModifier>
+        <RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_RESPIRATORY_FAILURE</CollapseSymptomRef>
+        <Examinations>
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CRP_EPIPEN</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>2108</IconIndex>
+    </GameDBSymptom>
+
+</Database>
